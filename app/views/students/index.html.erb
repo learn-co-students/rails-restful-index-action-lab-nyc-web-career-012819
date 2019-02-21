@@ -1,0 +1,4 @@
+<h1>Students</h1>
+<% @students.each do |student| %>
+<h2><%= student.id %>: <%= student.last_name.upcase %>, <%= student.first_name %></h2>
+<% end %>
