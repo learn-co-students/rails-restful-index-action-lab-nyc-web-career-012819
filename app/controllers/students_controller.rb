@@ -1,8 +1,8 @@
 class StudentsController < ApplicationController
 
-  def view
+  def index
     @students = Student.all
-    render "students/index"
+    # render "students/index"
   end
 
 end

@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'students', to: 'students#view'
+  resources :students, only: :index
 end
